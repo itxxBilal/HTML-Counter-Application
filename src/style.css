@@ -1,0 +1,63 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .counter-card {
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+  }
+  
+  .count {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .increment-button,
+  .decrement-button,
+  .reset-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out;
+    margin: 5px;
+  }
+  
+  .increment-button {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .increment-button:hover {
+    background-color: #45a049;
+  }
+  
+  .decrement-button {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  .decrement-button:hover {
+    background-color: #d32f2f;
+  }
+  
+  .reset-button {
+    background-color: #2196f3;
+    color: white;
+  }
+  
+  .reset-button:hover {
+    background-color: #0c7cba;
+  }
+  
